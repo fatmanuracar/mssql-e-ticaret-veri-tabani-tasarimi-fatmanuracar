@@ -94,23 +94,3 @@ COMPANY_NAME NVARCHAR (200) NOT NULL,
 PHONE VARCHAR(50) NOT NULL,
 CONSTRAINT  FK_ORDER_SUPPLIER FOREIGN KEY (ORDER_NUMBER) REFERENCES ORDER_(ORDER_NUMBER)
 )
-
-
-
-
-
-
-
-
-
-
-
-
-create table Kategoriler
-(
-Id int primary key identity,
-Ad nvarchar(200) not null,
-ParentId int null,
-
-
-) 
